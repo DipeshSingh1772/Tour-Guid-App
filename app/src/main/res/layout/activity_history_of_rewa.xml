@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HistoryOfRewa">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:src="@drawable/rewa_logo"
+                android:layout_gravity="center_horizontal"
+                android:padding="20dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:text="Upon India\'s independence in 1947, the maharaja of Rewa acceded unto the Dominion of India. Rewa later merged with the Union of India and became part of Vindhya Pradesh, which was formed by the merger of the former princely states of the Bagelkhand and Bundelkhand agencies. Rewa served as the capital of the new state.
+                In 1956, Vindhya Pradesh was merged with other nearby political entities to form the Indian constitutive state of Madhya Pradesh. The Maharaja's palace was converted into a museum" />
+
+            <TextView
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/some_precious_pictures"
+                android:gravity="center_horizontal"
+                android:textColor="@color/black"
+                android:textSize="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1442dp"
+                android:orientation="vertical">
+
+                <ListView
+                    android:id="@+id/history_grid_view"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp">
+
+                </ListView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

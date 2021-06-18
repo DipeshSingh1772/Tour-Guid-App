@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#F6EFD8">
+
+        <TextView
+            android:id="@+id/historyView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="History"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"
+            android:gravity="center_vertical"
+            android:background="#E91E63"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/TouristView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Tourist Places"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"
+            android:gravity="center_vertical"
+            android:background="#FF9800"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/EventView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Events"
+            android:textSize="20dp"
+            android:paddingLeft="25dp"
+            android:gravity="center_vertical"
+            android:background="#055CBA"
+            android:textColor="@color/white" />
+        <TextView
+            android:id="@+id/FamousView"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:text="Famous Things"
+            android:textSize="19dp"
+            android:paddingLeft="25dp"
+            android:gravity="center_vertical"
+            android:background="#1A6505"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
