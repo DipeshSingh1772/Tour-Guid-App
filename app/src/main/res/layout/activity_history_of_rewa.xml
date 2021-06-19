@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/white"
     tools:context=".HistoryOfRewa">
 
     <ScrollView
@@ -37,7 +38,7 @@
                 android:text="@string/some_precious_pictures"
                 android:gravity="center_horizontal"
                 android:textColor="@color/black"
-                android:textSize="20dp"/>
+                android:textSize="20sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"

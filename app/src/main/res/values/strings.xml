@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Tour Guide App</string>
     <string name="some_precious_pictures">Some Precious Pictures</string>
+    <string name="famous_things">Famous Things</string>
+    <string name="events">Events</string>
+    <string name="tourist_places">Tourist Places</string>
+    <string name="history">History</string>
+    <string name="category">category</string>
 </resources>

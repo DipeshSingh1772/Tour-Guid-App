@@ -4,19 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#F6EFD8">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        android:background="#F6EFD8">
+        android:orientation="vertical">
 
         <TextView
             android:id="@+id/historyView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="History"
+            android:text="@string/history"
             android:textSize="20dp"
             android:paddingLeft="25dp"
             android:gravity="center_vertical"
@@ -26,7 +26,7 @@
             android:id="@+id/TouristView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Tourist Places"
+            android:text="@string/tourist_places"
             android:textSize="20dp"
             android:paddingLeft="25dp"
             android:gravity="center_vertical"
@@ -36,7 +36,7 @@
             android:id="@+id/EventView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Events"
+            android:text="@string/events"
             android:textSize="20dp"
             android:paddingLeft="25dp"
             android:gravity="center_vertical"
@@ -46,8 +46,8 @@
             android:id="@+id/FamousView"
             android:layout_width="match_parent"
             android:layout_height="70dp"
-            android:text="Famous Things"
-            android:textSize="19dp"
+            android:text="@string/famous_things"
+            android:textSize="20dp"
             android:paddingLeft="25dp"
             android:gravity="center_vertical"
             android:background="#1A6505"
